@@ -1,0 +1,43 @@
+This is a file describing some things that I do not yet know.
+
+Git.
+I know very little about Git.  I understand dropbox, but git is pretty different from dropbox.
+In git i cannot start an empty repository and clone it to a device.  In that way it is not like dropbox folders.
+however, I do think I understand some of the core concepts of git and github.  
+As far as I know, you have a repository which is a collection of directories and files...
+This repo can be cloned, or pulled down to a machine from a github URL. (kind of like using a cdn)
+You can push changes to repo on github... and that's about where my current understanding ends.
+
+I suspect that there are differences between pushing changes, committing changes, and merging changes.
+There will also be branches and branch management, which is essentially different development paths a project can take... and a way to manage them.
+
+I will have to learn how to use some of these in order to push this text document to github.
+
+$PATH
+The path variable is pretty interesting.  it's a string variable of some directories that the system looks in for executable scripts.
+This is handy because with this variable being set, you can just use any of the scripts that can be found in any of those directories contained in the $PATH.
+What I don't yet fully understand is adding directories to your path... though from what I can tell it's fairly simple and involves editing some file in the home directory.
+There is some confusion on which file it is that actually contains the $PATH variable... Maybe I can find out somehow with a bash script?
+
+BASH
+Apparently bash just means terminal, or shell, or command prompt, or 'linux command prompt'-- all of those seem to be pretty synonymous.
+There are plenty of bash commands that I do not know yet, and of the few that I do know I understand very little of what's actually going on under the hood.
+
+virtual environments.
+These seem to be wrapers that isolate projects, because you may want to work on multiple projects at once.
+These projects may have similar but not quite the same dependencies, such as different versions of, say, python.
+Virtual environments are excellent for this.  Another interesting thing that you can do with virtual environments is export entire projects with all of their dependencies.
+What I don't understand quite well is the use of different virtual environments.  virtualenv vs pipenv?  I have no clue.
+
+Error reporting
+In linux terminal if you miss a freaking blank space, the error that that throws is often a massive error that explains ad nausium all of the various files, their exact file locations, and exactly what line has an issue (probably none of which you have any clue about), due to your error.
+Sometimes towards the bottom there will be some hint about something something "blank value not acceptable for ''" when you meant to do a ' ' instead, and some combination of those hints at the bottom and your memory can be helpful in debugging.
+as for the rest of the error reports that are common with linux?  I have no idea.
+
+apt-get
+There is this magical thing about sudo apt-get install [whatever] that just works.  It usually *does* work for installing whatever software you may need.
+The problem is when either it apparently installs something incorrectly, like installing something out of the $PATH, or not adding where it was installed to the $PATH, or when it doesn't work.
+I have somewhat learned that apt-get relies on some repository somewhere, and not all software known to humankind is in this repo.
+In these sad occasions, you have to download the actual zipped package, cd to your downloads and use ./ to refer to the downloaded stuff in order to install them.
+
+
