@@ -1,0 +1,28 @@
+Git stuff:
+
+git clone {some repo URL}	-Gets a repo and puts it in the current directory
+git init			-Starts a new repo at the current directory
+
+git commit			-Takes local changes and gets them ready to push to the remote repo
+git fetch {some repo URL}	-Takes remote changes and gets them ready to pull to the local repo
+
+git push {some repo URL}	-Pushes changes to the remote.
+git pull {some repo URL}	-Pulls changes from the remote to the local.
+
+git config --global credential.helper store	-Stores credentials so no keepy typey.
+
+#pull requests.  Has to do with changes made locally pushed to a remote repo on some branch that's supposed to get merged into the main repo or whatever.
+
+
+venv stuff:
+
+sudo python3 -m venv venv	-makes a venv called 'venv' in the current directory. Which argument is the name of the venv no one knows... Though some speculate it's probably the second one.  No one makes venvs that aren't named 'venv'
+source venv/bin/activate	-Enters the venv.
+deactivate			-Leaves the venv
+
+
+python stuff:
+
+dir(object) returns all the attributes and methods of an object.
+
+
